@@ -372,4 +372,8 @@ table td {
     font-size: 10px;
     gap: 6px;
   }
+  .blur{
+   font-size: 48px;
+  
+  }
 }
