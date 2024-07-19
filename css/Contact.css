@@ -1,0 +1,38 @@
+.blue_section {
+  background: linear-gradient(#04dbfc, rgb(6, 227, 251, 1.5)),
+    url(img/slider-banner-2.jpg);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0.98;
+}
+
+.input_styles {
+  background-color: transparent;
+  border: 1px solid white;
+  /* color:white !important; */
+}
+.form-control::placeholder {
+  /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: white;
+}
+.transparent-input {
+  background-color: rgba(0, 0, 0, 0) !important;
+  border: 1px solid white !important;
+  color: white !important;
+}
+.form_center_icons {
+  color: #15b9d9;
+  font-size: 25px;
+  background-color: #ffff;
+  border-radius: 50%;
+  padding: 18px;
+}
+.map_top_icons {
+  color: black;
+  font-size: 12px;
+  background-color: white;
+  border-radius: 50%;
+  padding: 15px 15px;
+  text-align: center;
+}

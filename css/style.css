@@ -1,0 +1,235 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-stretch: 100%;
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+.underline_link {
+  color: #15b9d9;
+  position: relative;
+}
+.underline_link:after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 0.2rem;
+  left: 0;
+  bottom: 0;
+  background-color: #15b9d9;
+  transition: 1s;
+}
+
+/*-------------------------------------------------header---------------------------------------------------------*/
+.blue_section {
+  background: linear-gradient(rgb(21, 185, 217, 0.8), rgb(21, 185, 217, 0.8)),
+    url(img/slider-banner-2.jpg);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.line_head {
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+}
+.lines {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.one_line {
+  width: 20px;
+  height: 1.8px;
+  background-color: #ffff;
+}
+.two_line {
+  width: 60px;
+  height: 2px;
+  background-color: #ffff;
+}
+.one_line1 {
+  width: 20px;
+  height: 1.8px;
+  background-color: white;
+  margin-left: 40px;
+}
+.star {
+  color: goldenrod;
+}
+.head_location h6 {
+  text-align: center;
+}
+.head_left_part {
+  font-size: 12px;
+}
+.nav_icons {
+  color: #15b9d9;
+  font-size: 12px;
+}
+.nav_right_icons {
+  padding: 10px;
+  background-color: #fff;
+  border-radius: 50%;
+  font-size: 12px;
+  color: black;
+}
+.nav_right_icons:hover {
+  color: #15b9d9;
+}
+
+.hero_section {
+  width: 100%;
+  height: 450px;
+  background: url(img/slider-banner-2.jpg);
+  background-size: cover;
+  position: relative;
+}
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(22, 22, 22, 0.511);
+  color: aliceblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+a {
+  text-decoration: none;
+}
+.img_card {
+  border-radius: 10px;
+}
+.img_card:hover .card_photo {
+  transform: scale(0.99);
+}
+.img_card img {
+  border-radius: 10px 10px 0px 0px;
+}
+.card {
+  border-radius: 10px;
+  border-bottom: 5px solid #15b9d9;
+}
+.card img {
+  border-radius: 10px 10px 0px 0px;
+}
+.card_body_style {
+  border-bottom: 1px solid #15b9d9;
+  border-right: 1px solid #15b9d9;
+  border-left: 1px solid #15b9d9;
+  border-radius: 0px 0px 10px 10px;
+}
+.card-btns {
+  color: white;
+  font-size: 16px;
+  padding: 12px 30px;
+  background-color: #15b9d9;
+  font-weight: 500;
+  border: none;
+  border-radius: 20px;
+  text-decoration: none;
+}
+.card-btn2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.slider-btn {
+  color: white;
+  font-size: 16px;
+  padding: 10px 25px;
+  background-color: #15b9d9;
+  font-weight: 500;
+  border: none;
+  border-radius: 20px;
+}
+.small_card {
+  border: 2px solid #15b9d9;
+  background-color: whitesmoke;
+}
+.small_card_icon {
+  color: #15b9d9;
+  font-size: 50px;
+}
+.small_card:hover {
+  border: 2px solid whitesmoke;
+  background-color: #15b9d9;
+  color: white;
+}
+.small_card:hover .small_card_icon {
+  color: white;
+}
+.line_head_blue {
+  color: #15b9d9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+}
+.lines_blue {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.one_line_blue {
+  width: 20px;
+  height: 1.8px;
+  background-color: #15b9d9;
+}
+.two_line_blue {
+  width: 60px;
+  height: 2px;
+  background-color: #15b9d9;
+}
+.one_line1_blue {
+  width: 20px;
+  height: 1.8px;
+  background-color: #15b9d9;
+  margin-left: 40px;
+}
+.blue_section2 {
+  width: 100%;
+  height: 500px;
+  background: url(img/slider-banner-2.jpg);
+  background-size: cover;
+  position: relative;
+  overflow: hidden;
+}
+.overlay2 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #15b9d9;
+  opacity: 0.9;
+  color: aliceblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.footer_left_icons {
+  color: white;
+  font-size: 12px;
+  background-color: #15b9d9;
+  border-radius: 50%;
+  padding: 6px 6px;
+}
+@media screen and (max-width: 700px) {
+  .nav_hidden {
+    display: none;
+  }
+}

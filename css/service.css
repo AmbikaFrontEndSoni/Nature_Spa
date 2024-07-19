@@ -1,0 +1,30 @@
+.card_container_first {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+  font-size: 16px;
+  flex-direction: column;
+  gap: 5px;
+  text-align: center;
+}
+.all_first_content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.first_heading_content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.big_card {
+  transition: all ease;
+}
+.big_card:hover {
+  transform: scale(1.02);
+}
+.overlay2 i {
+  color: rgb(237, 179, 34);
+}
